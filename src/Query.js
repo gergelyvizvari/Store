@@ -12,7 +12,6 @@ export default class Query {
         // need all...
         if (queryParts.length === 0) {
             queryParts = query.split('*.'); // in the begining
-
         }
 
         if (queryParts.length === 0) {
